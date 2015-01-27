@@ -1,0 +1,133 @@
+.rounded_image_corners{
+  border:1px solid #;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;  
+}
+.kelner_button_radius_left{
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.kelner_button_radius_right{
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.kelner_green{
+  background-color: #009933;
+}
+.top_borders{
+  /*border-left: 1px solid green;
+  border-right: 1px solid green;*/
+  padding: 10px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.bottom_borders{
+  /*border-left: 1px solid green;
+  border-right: 1px solid green;
+  border-bottom: 1px solid green;*/
+  padding: 10px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.top_font{
+  font-weight: 600;
+  font-size: 2.4em;
+  font-family: 'Coda', cursive;
+}
+.kelner_happy_image{
+  width: 225px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.background_kelner{
+  background: url('../img/divBg.png');
+  color: white;
+}
+h1, h2, h3, h4{
+  color: white;
+}
+h3 small{
+  color: white;
+}
+.h3up{
+  margin-top: -37px;
+}
+.h3upTwo{
+  margin-top: -10px;
+}
+h2{
+  -webkit-margin-after: 0em !important;
+  margin-bottom: -0.2em !important;
+}
+h2 small{
+  color: #009933;
+  position: relative;
+  top: -20px;
+}
+hr{
+  margin: 0px !important;
+}
+.button:hover{
+  background-color: #006600;
+}
+a {
+  color: #009933;
+}
+a:hover {
+  color: #006600;
+}
+#content{
+  z-index: 5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+#backgroundImages {
+  /*background: url('../img/lawns/6.jpg') no-repeat center center fixed;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+@media (min-width: 600px) {
+  body {
+    background-repeat: repeat-y;
+  }
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    background: url('../img/lawns/6.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bumpOver{
+  padding-left: 20px;
+}
+.erinName{
+  margin-bottom: -11px;
+}
+.phoneTop{
+  font-size: 1.75em;
+  float: right;
+}
+.grasssy{
+  width: 60%;
+}
