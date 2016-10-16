@@ -1,2 +1,2 @@
 # righttouchlandscape
-simple static website for my cousin's lawn care business 
+stupid simple static website for my cousin's lawn care business
