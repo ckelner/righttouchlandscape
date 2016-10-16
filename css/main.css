@@ -8,14 +8,20 @@
   -webkit-border-bottom-left-radius: 20px;
   -moz-border-bottom-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-left: 0px !important;
 }
 .kelner_button_radius_right{
   -webkit-border-bottom-right-radius: 20px;
   -moz-border-bottom-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  border-right: 0px !important;
 }
 .kelner_green{
   background-color: #009933;
+  padding-top: 0.75rem !important;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
 }
 .top_borders{
   /*border-left: 1px solid green;
