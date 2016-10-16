@@ -2,7 +2,7 @@
   border:1px solid #;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
-  border-radius: 20px;  
+  border-radius: 20px;
 }
 .kelner_button_radius_left{
   -webkit-border-bottom-left-radius: 20px;
@@ -110,13 +110,13 @@ a:hover {
   }
 }
 body, html {
-    height: 100%;
-    width: 100%;
-    background: url('../img/lawns/6.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  height: 100%;
+  width: 100%;
+  background: url('../img/lawns/6.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .bumpOver{
   padding-left: 20px;
@@ -130,4 +130,8 @@ body, html {
 }
 .grasssy{
   width: 60%;
+}
+/* ignore juicer */
+.referral {
+  display: none !important;
 }
